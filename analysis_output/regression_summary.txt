@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             TRUST_CORE   R-squared:                       0.550
+Model:                            OLS   Adj. R-squared:                  0.495
+Method:                 Least Squares   F-statistic:                     10.04
+Date:                Fri, 05 Dec 2025   Prob (F-statistic):           6.56e-10
+Time:                        20:28:07   Log-Likelihood:                -81.318
+No. Observations:                  84   AIC:                             182.6
+Df Residuals:                      74   BIC:                             206.9
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+Intercept             0.3285      0.617      0.532      0.596      -0.902       1.559
+CFQ_MEAN             -0.0289      0.105     -0.276      0.784      -0.238       0.180
+CLOAD_MEAN            0.0394      0.129      0.306      0.761      -0.217       0.296
+PERF_MEAN             0.3695      0.097      3.826      0.000       0.177       0.562
+EFF_MEAN              0.4045      0.112      3.626      0.001       0.182       0.627
+FAC_MEAN             -0.0291      0.111     -0.261      0.794      -0.251       0.192
+age_group_num         0.1122      0.082      1.368      0.175      -0.051       0.276
+education_num        -0.0993      0.084     -1.178      0.242      -0.267       0.069
+ai_use_freq_num       0.0186      0.081      0.230      0.819      -0.143       0.180
+ai_health_use_num    -0.0695      0.204     -0.341      0.734      -0.475       0.336
+==============================================================================
+Omnibus:                        6.222   Durbin-Watson:                   1.778
+Prob(Omnibus):                  0.045   Jarque-Bera (JB):                5.799
+Skew:                           0.483   Prob(JB):                       0.0551
+Kurtosis:                       3.850   Cond. No.                         72.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
